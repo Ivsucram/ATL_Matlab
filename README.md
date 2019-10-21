@@ -1,3 +1,12 @@
+# Reference
+
+[ArXiv -> ATL: Autonomous Knowledge Transfer from Many Streaming Processes](https://arxiv.org/abs/1910.03434)
+[ResearchGate -> ATL: Autonomous Knowledge Transfer from Many Streaming Processes](https://www.researchgate.net/publication/336361712_ATL_Autonomous_Knowledge_Transfer_from_Many_Streaming_Processes)
+
+# Notes
+
+`ATL_Matlab` was the original code used for this paper. In the following weeks, we will upload a version of this code on Python (Pytorch, with autograd enabled and GPU support). This will make it easier for researchers to use ATL in their benchmarks.
+
 # ATL_Matlab
 
 ATL: Autonomous Knowledge Transfer From Many Streaming Processes
@@ -6,7 +15,7 @@ ACM CIKM 2019
 1. Clone `ATL_Matlab` git to your computer, or just download the files.
 
 2. Provide a dataset by replacing the file `data.csv`
-The current `data.csv` holds SEA [TODO: include reference] dataset.
+The current `data.csv` holds [https://www.researchgate.net/publication/221653408_A_Streaming_Ensemble_Algorithm_SEA_for_Large-Scale_Classification](SEA) dataset.
 `data.csv` must be prepared as following:
 
 ```
