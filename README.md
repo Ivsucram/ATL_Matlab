@@ -8,7 +8,7 @@
 
 `ATL_Matlab` was the original code used for this paper. In the following weeks, we will upload a version of this code on Python (Pytorch, with autograd enabled and GPU support). This will make it easier for researchers to use ATL in their benchmarks.
 
-Update: You can find [https://github.com/Ivsucram/ATL_Python](ATL_Python) already by following [this link](https://github.com/Ivsucram/ATL_Python).
+Update: You can find [ATL_Python](https://github.com/Ivsucram/ATL_Python) already by following [this link](https://github.com/Ivsucram/ATL_Python).
 
 # ATL_Matlab
 
