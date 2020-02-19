@@ -45,7 +45,7 @@ ACM CIKM 2019
 1. Clone `ATL_Matlab` git to your computer, or just download the files.
 
 2. Provide a dataset by replacing the file `data.csv`
-The current `data.csv` holds [https://www.researchgate.net/publication/221653408_A_Streaming_Ensemble_Algorithm_SEA_for_Large-Scale_Classification](SEA) dataset.
+The current `data.csv` holds [SEA](https://www.researchgate.net/publication/221653408_A_Streaming_Ensemble_Algorithm_SEA_for_Large-Scale_Classification) dataset.
 `data.csv` must be prepared as following:
 
 ```
