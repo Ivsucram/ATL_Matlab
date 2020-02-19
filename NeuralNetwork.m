@@ -261,11 +261,11 @@ classdef NeuralNetwork < handle & ElasticNodes & NeuralNetworkConstants
                 if i == self.nHiddenLayers
                         z     = dW{i + 1} * self.outputWeight;
                         dW{i} = z .* dActivationFunction;
-                        db{i} = sum(dW{i})/size(dW{i}, 1);
+                        db{i} = sum(dW{i}, 1)/size(dW{i}, 1);
                 else
                         z     = dW{i + 1} * self.weight{i + 1};
                         dW{i} = z .* dActivationFunction;
-                        db{i} = sum(dW{i})/size(dW{i}, 1);
+                        db{i} = sum(dW{i}, 1)/size(dW{i}, 1);
                 end
                 
             end
