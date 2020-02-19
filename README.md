@@ -1,12 +1,39 @@
 # Reference
 
-[ArXiv -> ATL: Autonomous Knowledge Transfer from Many Streaming Processes](https://arxiv.org/abs/1910.03434)
+## Paper
 
-[ResearchGate -> ATL: Autonomous Knowledge Transfer from Many Streaming Processes](https://www.researchgate.net/publication/336361712_ATL_Autonomous_Knowledge_Transfer_from_Many_Streaming_Processes)
+ATL: Autonomous Knowledge Transfer from Many Streaming Processes
+
+[ArXiv](https://arxiv.org/abs/1910.03434)
+
+[ResearchGate](https://www.researchgate.net/publication/336361712_ATL_Autonomous_Knowledge_Transfer_from_Many_Streaming_Processes)
+
+[ACM Digital Library](https://dl.acm.org/action/doSearch?AllField=ATL&expand=all&ConceptID=119445)
+
+## Bibtex
+
+```
+@inproceedings{10.1145/3357384.3357948,
+author = {Pratama, Mahardhika and de Carvalho, Marcus and Xie, Renchunzi and Lughofer, Edwin and Lu, Jie},
+title = {ATL: Autonomous Knowledge Transfer from Many Streaming Processes},
+year = {2019},
+isbn = {9781450369763},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3357384.3357948},
+doi = {10.1145/3357384.3357948},
+booktitle = {Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+pages = {269–278},
+numpages = {10},
+keywords = {concept drif, transfer learning, deep learning, multistream learning},
+location = {Beijing, China},
+series = {CIKM ’19}
+}
+```
 
 # Notes
 
-`ATL_Matlab` was the original code used for this paper. In the following weeks, we will upload a version of this code on Python (Pytorch, with autograd enabled and GPU support). This will make it easier for researchers to use ATL in their benchmarks.
+`ATL_Matlab` uses Matlab and it was the original code used for this paper. In the following weeks, we will upload a version of this code on Python (Pytorch, with autograd enabled and GPU support). This will make it easier for researchers to use ATL in their benchmarks.
 
 Update: You can find [ATL_Python](https://github.com/Ivsucram/ATL_Python) already by following [this link](https://github.com/Ivsucram/ATL_Python).
 
